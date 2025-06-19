@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
+    "test": "playwright test",
     "build": "npm-run-all build:* --sequential --print-name",
     "build:rspack": "cross-env RSPACK=1 rspack",
     "build:rsbuild": "rsbuild build",
