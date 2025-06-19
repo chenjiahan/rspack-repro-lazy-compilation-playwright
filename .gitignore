@@ -18,3 +18,4 @@ webpack-dist/
 !.vscode/extensions.json
 .idea
 
+test-results/
